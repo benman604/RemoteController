@@ -23,16 +23,9 @@
 </head>
 <body>
     <div class="text-center">
-        <h1 id="title">Hello!</h1>
-        <p id="body">This is a test.</p>
+        <h1 id="title">-</h1>
+        <p id="body">-</p>
     </div>
-
-    <script>
-        const queryString = window.location.search;
-        const urlParams = new URLSearchParams(queryString);
-        document.getElementById("title").innerText = (urlParams.getAll('title'))
-        document.title = (urlParams.getAll('title'))
-        document.getElementById("body").innerText = (urlParams.getAll('body'))
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
