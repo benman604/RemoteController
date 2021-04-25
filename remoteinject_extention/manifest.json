@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "content_security_policy": "script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'",
   "description": "Remotely do things like open websites, play noises, and more",
-  "homepage_url": "https://google.com",
+  "homepage_url": "https://github.com/benman604/RemoteController",
   "icons": {
     "16": "icons/16x16.png",
     "48": "icons/48x48.png",
