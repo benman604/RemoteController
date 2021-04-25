@@ -1,0 +1,16 @@
+{
+    "name": "Remote Controller",
+    "short_name" : "RC",
+    "start_url": "index.html?utm_source=homescreen",
+    "scope" : "./",
+    "icons": [
+        {
+            "src": "./lib/favicon.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffee00",
+    "background_color": "#ffee00",
+    "display": "standalone"
+}

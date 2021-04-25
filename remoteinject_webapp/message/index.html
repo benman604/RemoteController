@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .text-center{
+            margin-top: 25vh;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h1{
+            font-size: 100px;
+            margin-bottom: 0%;
+        }
+        p{
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-center">
+        <h1 id="title">Hello!</h1>
+        <p id="body">This is a test.</p>
+    </div>
+
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        document.getElementById("title").innerText = (urlParams.getAll('title'))
+        document.title = (urlParams.getAll('title'))
+        document.getElementById("body").innerText = (urlParams.getAll('body'))
+    </script>
+</body>
+</html>
