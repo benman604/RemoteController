@@ -19,6 +19,8 @@ This can be used to:
 2. On Chrome (or any chromium-based browser), go to 3 dots > Settings > Extensions > enable developer mode > load unpacked and select the unzipped folder
 
 ## Usage
-<https://pedantic-wright-223743.netlify.app/>
+<https://remotecontroller.tech/>
 1. On the web app, click "New tracker" and paste the code that pops up when installed in "Tracker ID"
 2. Select an action and execute it
+
+Created for LosAltos Hacks V

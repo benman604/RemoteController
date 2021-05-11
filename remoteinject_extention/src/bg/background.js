@@ -87,11 +87,11 @@ function main(){
           chrome.tts.speak(snap.val().text)
           break
         case "message":
-          window.open("/src/bg/message/index.html/?title=" + snap.val().title + "&body=" + snap.val().body, "_blank", "toolbar=0,location=0,menubar=0," + params)
+          window.open("https://remotecontroller.tech/message?title=" + snap.val().title + "&body=" + snap.val().body)
           break
         case "image":
           doWithFile(snap.val().ref, (url) => {
-            window.open(url, "_blank", "toolbar=0,location=0,menubar=0," + params)
+            window.open(url)
           })
           break
       }
